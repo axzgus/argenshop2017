@@ -1,0 +1,417 @@
+body{
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cuerpo {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+  /*display: flex;
+  flex-direction: column;*/
+
+}
+/********************inicio de sesion**************************/
+.acceso{
+  display: flex;
+  margin-right: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 1vh;
+}
+
+.botones_acceso{
+  display: flex;
+  flex-direction: row;
+  padding-left:1vw;
+  padding-right: 1vw;
+}
+
+.botones_acceso a{
+  text-decoration: none;
+}
+  #Registrarse{
+display: inline-block;
+margin: 10px;
+    color: #175F84;
+
+  }
+
+  #Ingresar{
+    display: inline-block;
+    margin: 10px;
+    background-color: #175F84;
+    color: white;
+  }
+.IniciarSesion{
+  float: right;
+  display: none;
+}
+/******************************header*******************************/
+.header{
+  overflow: hidden;
+
+}
+
+    .logo_busqueda_menu{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      /*overflow: hidden;*/
+      margin-top: -2vh;
+      margin-bottom: 20px;
+
+    }
+          .logo{
+            /*float: left;*/
+          }
+
+          .busqueda{
+            height: 3vh;
+            display: flex;
+            flex-direction: row;
+            margin-top: 8vh;
+          }
+
+          .lupa{
+            display:block;
+            height: 100%;
+            margin-right: 10px;
+          }
+
+          .barra_busqueda{
+
+            height: 4vh;
+          }
+
+          .boton_busqueda{
+            display: none;
+          }
+          .toggle-nav{
+          	display: block;
+          	margin: 15px 5px;
+          	background-color: #c1bc00;
+          	width: 45px;
+          	text-align: center;
+          	padding: 15px 0;
+          	color: #fff;
+          	font-size: 1.2em;
+          }
+          .main-nav ul{
+            display: flex;
+            flex-direction: row;
+            margin-top: 8vh;
+            justify-content: space-between;
+
+          }
+
+
+          .main-nav li{
+            list-style: none;
+            text-align: center;
+            margin-left: 0.4vw;
+            margin-right: 0.4vw;
+          }
+
+          .main-nav a{
+            color: grey;
+            text-decoration: none;
+            }
+            .open-nav{
+            	right: 0;
+            	opacity: 1;
+            }
+
+            .menuProductos{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              background-color: #CCCDCD;
+            }
+
+            .bar-nav ul{
+              display: flex;
+              flex-direction: row;
+              justify-content: flex-start;
+              align-items: center;
+              }
+
+
+
+            .bar-nav li{
+              list-style: none;
+              text-align: center;
+                }
+
+                .bar-nav a{
+                  color: black;
+                  text-decoration: none;
+                  margin-left:2vw;
+                  margin-right: 2vw;
+                  }
+
+                      .comercial{
+                        background-color:#66676B;
+                        padding-top:3vh;
+                        padding-bottom: 3vh;
+                      }
+
+                .fav-carr{
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                }
+
+                    .fav-carr a{
+                      color: black;
+                      text-decoration: none;
+                      /*margin-left:2vw;*/
+                      margin-right: 2vw;
+                          }
+/*******************************cuerpo***********************************/
+
+
+          .banner{
+            display: none;
+          }
+
+          .mediosdepago{
+              display: none;
+
+          }
+            .Productos_Destacados{
+              display: flex;
+              background-color: #f5f5f5;
+              padding: 10px;
+              font-size: 25px;
+              justify-content: center;
+              margin: 3vh;
+            }
+
+            .Productos_Destacados p{
+              color: #175F84;
+            }
+          .productos{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            margin: 15px;
+          }
+
+          .prod_box{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            padding: 26px;
+            width: 100%;
+            height:312px;
+          }
+
+          .producto_img{
+            overflow: hidden;
+            position: relative;
+            padding: 10px;
+          }
+
+          .producto_img .nuevo{
+            position: absolute;
+            top: 0;
+            right:0;
+          }
+
+          .producto_img .oferta{
+            position: absolute;
+            top: 0;
+            right: 0;
+          }
+
+          /*.nuevo{
+            float: left;
+            justify-content: flex-start;
+            position: relative;
+            top: 0px;
+            z-index: 10;
+          }*/
+
+          /*.producto{
+            float: left;
+            z-index: 0;
+            position: relative;
+            top: 0px;
+          }*/
+
+          .prod_box p{
+            font-weight: bold;
+            padding: 5px;
+          }
+
+            .prod_box .marca{
+            font-weight: normal;
+          }
+
+        .ver_comp_fav{
+          display: flex;
+          flex-flow: row;
+          justify-content: space-around;
+        }
+
+        .venta_atencion{
+            display: flex;
+            justify-content: space-around;
+            background: #f5f5f5;
+            padding-top: 15px;
+            margin-bottom: 20px;
+        }
+
+        .venta_tel{
+          display: inline-block;
+          width: 100%;
+          text-align: center;
+
+        }
+        .venta_tel h2{
+         font-size: 25px;
+        }
+
+        .venta_tel p{
+         font-size: 12px;
+         padding: 10px;
+        }
+
+        .footer{
+          display: flex;
+          flex-flow: row;
+          background-color: #f1f1f1;
+          justify-content: space-between;
+          padding: 15px;
+        }
+
+
+
+        .f_titulo{
+          font-weight: bold;
+          color: #316E86;
+        }
+        .f_nav ul{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          }
+
+          .f_nav li{
+            list-style: none;
+            text-align: center;
+            font-size: 15px;
+              }
+
+              .f_nav a{
+                color: black;
+                text-decoration: none;
+                margin-left:2vw;
+                margin-right: 2vw;
+                }
+
+                .f_contacto{
+                  height: 100%;
+
+                }
+
+                .f_nav2 {
+                  display: flex;
+                  flex-direction: column;
+                  /*justify-content: space-around;*/
+                  /*align-items: center;*/
+                }
+
+                .f_nav2 ul{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-around;
+                  align-items: center;
+                  }
+
+                  .f_titulo_contacto{
+                    font-weight: bold;
+
+                  }
+
+                  .f_nav2 li{
+                    list-style: none;
+                    text-align: center;
+                      }
+
+                      .f_nav2 a{
+
+                        text-decoration: none;
+                        margin-left:2vw;
+                        margin-right: 2vw;
+                        }
+
+                        .QA li{
+                        font-weight:bold;
+                        }
+                        .QA{
+                        width: 98%;
+                        margin-left:10px;
+
+                        }
+
+/**********************************cambio de tamano***********************/
+@media (min-width: 960px) {
+
+
+  .acceso{
+    margin-top: 2vh;
+  }
+  .logo_busqueda_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+
+  }
+
+    /*.busqueda{
+      margin-bottom: 5vh;
+    }*/
+
+    .busqueda input{
+      width: 30vw;
+    }
+    .toggle-nav{
+  		display: none;
+  	}
+  .banner {
+    display: block;
+    width: 100%;
+  }
+
+  .banner img{
+    width: 100%;
+  }
+
+  .mediosdepago{
+      */display: inline-block;
+      justify-content: space-between;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+  }
+  .new-nav a{
+    background: #c1bc00;
+  /*.productos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }*/
+
+  .prod_box{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 20vw;
+    height: 325px;
+  }

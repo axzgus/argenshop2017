@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario de registro</title>
+        <link rel="stylesheet" href="estilo_reg.css">
+    </head>
+    <body>
+        <h1>Formulario de registro</h1>
+        <form class="form-registro" action="registrar.php" method="post">
+            <h2 class="form-titulo">Crear una cuenta</h2>
+            <div class="contenedor-input">
+                <input type="text" name="nombre" placeholder="Nombre"class="input-48" required>
+                <input type="text" name="apellido" placeholder="Apellido" class="input-48" require>
+                <input type="email" name="correo" placeholder="Correo" class="input-100" require>
+                <input type="text" name="usuario" placeholder="Usuario" class="input-48" require>
+                <input type="password" name="clave" placeholder="Contrasena"class="input-48" require>
+                <input type="text" name="telefono" placeholder="Telefono" class="input-100" require>
+                <input type="submit" value="Registrar" class="boton-enviar">
+                <p class="form-link">Ya tienes una cuenta? <a href="#">Ingresar</a></p>
+
+            </div>
+        </form>
+
+    </body>
+</html>
