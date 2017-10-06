@@ -1,26 +1,12 @@
-<?php
-    $name = null;
-     $lastname = null;
-      $username = null;
-       $email = null;
-       $phone = null;
-
-       require_once("validacion.php");
- ?>
-<?php
-  var_dump($_FILES);
- ?>
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Registrarse</title>
     <link href="reset.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="estilo_reg.css">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
     <div class="cuerpo">
@@ -34,6 +20,15 @@
 
 <!-- ********************************* FORM ************************************* -->
 
+<?php
+         $name = null;
+     $lastname = null;
+      $username = null;
+       $email = null;
+       $phone = null;
+
+       require_once("validacion.php");
+ ?>
 
     <div class="Formulario">
 
@@ -78,20 +73,26 @@
             </div>
         </form>
 
-        <p><?php if(isset($errores['name'])) echo $errores['name']; ?></p>
+        <p><?php if(isset($errores['name'])) echo $errores['name1']; ?></p>
+        <p><?php if(isset($errores['name2'])) echo $errores['name2']; ?></p>
 
-        <p><?php if(isset($errores['lastname'])) echo $errores['lastname']; ?></p>
+        <p><?php if(isset($errores['lastname1'])) echo $errores['lastname1']; ?></p>
+        <p><?php if(isset($errores['lastname2'])) echo $errores['lastname2']; ?></p>
 
-        <p><?php if(isset($errores['username'])) echo $errores['username']; ?></p>
+        <p><?php if(isset($errores['username1'])) echo $errores['username1']; ?></p>
+        <p><?php if(isset($errores['username2'])) echo $errores['username2']; ?></p>
 
-        <p><?php if(isset($errores['email'])) echo $errores['email']; ?></p>
+        <p><?php if(isset($errores['email1'])) echo $errores['email1']; ?></p>
 
-        <p><?php if(isset($errores['pass'])) echo $errores['pass']; ?></p>
+        <p><?php if(isset($errores['pass1'])) echo $errores['pass1']; ?></p>
+        <p><?php if(isset($errores['pass2'])) echo $errores['pass2']; ?></p>
 
-        <p><?php if(isset($errores['phone'])) echo $errores['phone']; ?></p>
 
-        <p><?php if(isset($errores["imagen"])) echo   $errores["imagen"]; ?></p>
+        <p><?php if(isset($errores['phone1'])) echo $errores['phone1']; ?></p>
 
+
+        <p><?php if(isset($errores['photo_error1'])) echo $errores['photo_error1']; ?></p>
+        <p><?php if(isset($errores['photo_error2'])) echo $errores['photo_error2']; ?></p>
 
     </div>
 

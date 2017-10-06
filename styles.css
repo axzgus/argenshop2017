@@ -14,7 +14,6 @@ body{
 /********************inicio de sesion**************************/
 .acceso{
   display: flex;
-  margin-right: 10px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
@@ -32,15 +31,11 @@ body{
   text-decoration: none;
 }
   #Registrarse{
-display: inline-block;
-margin: 10px;
     color: #175F84;
 
   }
 
   #Ingresar{
-    display: inline-block;
-    margin: 10px;
     background-color: #175F84;
     color: white;
   }
@@ -61,7 +56,6 @@ margin: 10px;
       /*overflow: hidden;*/
       margin-top: -2vh;
       margin-bottom: 20px;
-
     }
           .logo{
             /*float: left;*/
@@ -77,27 +71,17 @@ margin: 10px;
           .lupa{
             display:block;
             height: 100%;
-            margin-right: 10px;
           }
 
           .barra_busqueda{
 
-            height: 4vh;
+            height: 3vh;
           }
 
           .boton_busqueda{
             display: none;
           }
-          .toggle-nav{
-          	display: block;
-          	margin: 15px 5px;
-          	background-color: #c1bc00;
-          	width: 45px;
-          	text-align: center;
-          	padding: 15px 0;
-          	color: #fff;
-          	font-size: 1.2em;
-          }
+
           .main-nav ul{
             display: flex;
             flex-direction: row;
@@ -117,10 +101,6 @@ margin: 10px;
           .main-nav a{
             color: grey;
             text-decoration: none;
-            }
-            .open-nav{
-            	right: 0;
-            	opacity: 1;
             }
 
             .menuProductos{
@@ -349,14 +329,7 @@ margin: 10px;
                         margin-right: 2vw;
                         }
 
-                        .QA li{
-                        font-weight:bold;
-                        }
-                        .QA{
-                        width: 98%;
-                        margin-left:10px;
 
-                        }
 
 /**********************************cambio de tamano***********************/
 @media (min-width: 960px) {
@@ -381,9 +354,7 @@ margin: 10px;
     .busqueda input{
       width: 30vw;
     }
-    .toggle-nav{
-  		display: none;
-  	}
+
   .banner {
     display: block;
     width: 100%;
@@ -400,8 +371,7 @@ margin: 10px;
       display: flex;
       align-items: center;
   }
-  .new-nav a{
-    background: #c1bc00;
+
   /*.productos{
     display: flex;
     flex-flow: row wrap;

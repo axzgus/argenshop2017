@@ -7,6 +7,18 @@
         <h2>Atención al cliente 0810 999 3728</h2>
         <p>LU-SA de 9:00 a 20:00</p>
     </section>
+</div>
+
+
+<!-- <div class="venta_atencion">
+    <section class="venta_tel">
+        <h2>Venta telefónica 0810 333 8700</h2>
+        <p>LU-VI de 8:00 a 20:00 / SA-DO 9:00 a 21:00</p>
+    </section>
+    <section class="venta_tel">
+        <h2>Atención al cliente 0810 999 3728</h2>
+        <p>LU-SA de 9:00 a 20:00</p>
+    </section>
 
 </div>
 
@@ -64,4 +76,4 @@
 
 </div>
 
-</footer>
+</footer> -->

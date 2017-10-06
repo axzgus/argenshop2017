@@ -1,204 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto sprint 1</title>
-    <link href="reset.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link href="styles.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="cuerpo">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Argenshop</title>
+        <link href="reset.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
 
-<!-- *********************************HEADER*********************************** -->
-      <?php include 'header.php'; ?>
+    <body>
+<!-- //******************************HEADER********************************** -->
 
-<!-- HOME******************** HOME********************************* HOME -->
+  <?php include 'header.php'; ?>
 
-      <div class="HOME">
 
-        <div class="banner">
-            <img src="imagenes/banner.png" alt="banner">
+<!-- //*****************************BODY*********************************** -->
+
+        <div class="slider">
+
+        <figure>
+
+            <img src="img/01.jpg">
+            <img src="img/02.jpg">
+            <img src="img/03.jpg">
+            <img src="img/04.jpg">
+            <img src="img/05.jpg">
+            <img src="img/06.jpg">
+
+        </figure>
+
         </div>
+
         <div class="mediosdepago">
-            <img src="imagenes/icono_envios.png" alt="banner">
-            <img src="imagenes/icono_retirotiendas.png" alt="banner">
-            <img src="imagenes/icono_cuotas.png" alt="banner">
+            <img src="img/icono_envios.png" alt="banner">
+            <img src="img/icono_retirotiendas.png" alt="banner">
+            <img src="img/icono_cuotas.png" alt="banner">
         </div>
 
-<!-- ********************************Productos********************************** -->
-
-          <div class="Productos_Destacados">
+        <div class="Productos_Destacados">
             <h2>Productos Destacados</h2>
-          </div>
-        <div class="productos">
+        </div>
 
-              <div class="prod_box">
+        <div class="producto-caja">
 
-                <div class="producto_img">
-                <img src="imagenes/icono_sku_nuevo.png" alt="nuevo" class="nuevo">
-                <img src="imagenes/producto.png" alt="producto" class="producto">
-                </div>
+            <article class="producto">
+                <img src="img/producto.png" alt="">
+                <span class="prod-titulo">Máquina para hacer mujeres</span>
+                <span class="prod-precio">$3250,00</span>
+                <span>CONTADO ONLINE</span>
+                <span class="prod-precio-oferta">$2890,00</span>
+                <img src="img/comprar.png" alt="">
+            </article>
 
+            <article class="producto">
+                <img src="img/producto_1.png" alt="">
+                <span class="prod-titulo">Máquina para hacer mujeres</span>
+                <span class="prod-precio">$3250,00</span>
+                <span>CONTADO ONLINE</span>
+                <span class="prod-precio-oferta">$2890,00</span>
+                <img src="img/comprar.png" alt="">
+            </article>
 
-                <div class="texto_producto">
+            <article class="producto">
+                <img src="img/producto.png" alt="">
+                <span class="prod-titulo">Máquina para hacer mujeres</span>
+                <span class="prod-precio">$3250,00</span>
+                <span>CONTADO ONLINE</span>
+                <span class="prod-precio-oferta">$2890,00</span>
+                <img src="img/comprar.png" alt="">
+            </article>
 
+            <article class="producto">
+                <img src="img/producto_1.png" alt="">
+                <span class="prod-titulo">Máquina para hacer mujeres</span>
+                <span class="prod-precio">$3250,00</span>
+                <span>CONTADO ONLINE</span>
+                <span class="prod-precio-oferta">$2890,00</span>
+                <img src="img/comprar.png" alt="">
+            </article>
 
-                <p class="description">Granizadora Profesional de Hielo-340W</p>
-                <p><span class="marca">Marca:</span> Anion</p>
+            <article class="producto">
+                <img src="img/producto.png" alt="">
+                <span class="prod-titulo">Máquina para hacer mujeres</span>
+                <span class="prod-precio">$3250,00</span>
+                <span>CONTADO ONLINE</span>
+                <span class="prod-precio-oferta">$2890,00</span>
+                <img src="img/comprar.png" alt="">
+            </article>
 
-                  <div class="ver_comp_fav">
-                      <img src="imagenes/ver.png" alt="ver">
-                      <img src="imagenes/favorito.png" alt="favorito">
-                      <img src="imagenes/comprar.png" alt="comprar">
-                  </div>
-                </div>
-              </div>
-
-              <div class="prod_box">
-
-                <div class="producto_img">
-                <img src="imagenes/oferta.png" alt="oferta" class="oferta">
-                <img src="imagenes/producto_1.png" alt="producto" class="producto">
-                </div>
-
-                <p>Granizadora Profesional de Hielo-340W</p>
-                <p><span class="marca">Marca:</span> Anion</p>
-
-                  <div class="ver_comp_fav">
-                      <img src="imagenes/ver.png" alt="ver">
-                      <img src="imagenes/favorito.png" alt="favorito">
-                      <img src="imagenes/comprar.png" alt="comprar">
-                  </div>
-
-              </div>
-              <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-            	<script>
-            		$('.toggle-nav').click(function (){
-            			$('.main-nav').toggleClass('open-nav');
-            		});
-            	</script>
-<!--
-              <div class="prod_box">
-
-                <div class="producto_img">
-                <img src="imagenes/icono_sku_nuevo.png" alt="nuevo" class="nuevo">
-                <img src="imagenes/producto.png" alt="producto" class="producto">
-                </div>
-
-                <p>Granizadora Profesional de Hielo-340W</p>
-                <p><span class="marca">Marca:</span> Anion</p>
-
-                  <div class="ver_comp_fav">
-                      <img src="imagenes/ver.png" alt="ver">
-                      <img src="imagenes/favorito.png" alt="favorito">
-                      <img src="imagenes/comprar.png" alt="comprar">
-                  </div>
-
-              </div>
-
-              <div class="prod_box">
-
-                <div class="producto_img">
-                <img src="imagenes/icono_sku_nuevo.png" alt="nuevo" class="nuevo">
-                <img src="imagenes/producto_1.png" alt="producto" class="producto">
-                </div>
-
-                <p>Granizadora Profesional de Hielo-340W</p>
-                <p><span class="marca">Marca:</span> Anion</p>
-
-                  <div class="ver_comp_fav">
-                      <img src="imagenes/ver.png" alt="ver">
-                      <img src="imagenes/favorito.png" alt="favorito">
-                      <img src="imagenes/comprar.png" alt="comprar">
-                  </div>
-
-              </div>
-
-              <div class="prod_box">
-
-                <div class="producto_img">
-                <img src="imagenes/oferta.png" alt="oferta" class="oferta">
-                <img src="imagenes/producto.png" alt="producto" class="producto">
-                </div>
-
-                <p>Granizadora Profesional de Hielo-340W</p>
-                <p><span class="marca">Marca:</span> Anion</p>
-
-                  <div class="ver_comp_fav">
-                      <img src="imagenes/ver.png" alt="ver">
-                      <img src="imagenes/favorito.png" alt="favorito">
-                      <img src="imagenes/comprar.png" alt="comprar">
-                  </div>
-
-              </div>
-
-              <div class="prod_box">
-
-                <div class="producto_img">
-                <img src="imagenes/icono_sku_nuevo.png" alt="nuevo" class="nuevo">
-                <img src="imagenes/producto_1.png" alt="producto" class="producto">
-                </div>
-
-                <p>Granizadora Profesional de Hielo-340W</p>
-                <p><span class="marca">Marca:</span> Anion</p>
-
-                  <div class="ver_comp_fav">
-                      <img src="imagenes/ver.png" alt="ver">
-                      <img src="imagenes/favorito.png" alt="favorito">
-                      <img src="imagenes/comprar.png" alt="comprar">
-                  </div>
-
-              </div>
-
-              <div class="prod_box">
-
-                <div class="producto_img">
-                <img src="imagenes/oferta.png" alt="oferta" class="oferta">
-                <img src="imagenes/producto.png" alt="producto" class="producto">
-                </div>
-
-                <p>Granizadora Profesional de Hielo-340W</p>
-                <p><span class="marca">Marca:</span> Anion</p>
-
-                  <div class="ver_comp_fav">
-                      <img src="imagenes/ver.png" alt="ver">
-                      <img src="imagenes/favorito.png" alt="favorito">
-                      <img src="imagenes/comprar.png" alt="comprar">
-                  </div>
-
-              </div>
-
-              <div class="prod_box">
-
-                <div class="producto_img">
-                <img src="imagenes/producto_1.png" alt="producto" class="producto">
-                </div>
-
-                <p>Granizadora Profesional de Hielo-340W</p>
-                <p><span class="marca">Marca:</span> Anion</p>
-
-                  <div class="ver_comp_fav">
-                      <img src="imagenes/ver.png" alt="ver">
-                      <img src="imagenes/favorito.png" alt="favorito">
-                      <img src="imagenes/comprar.png" alt="comprar">
-                  </div>
-
-              </div> -->
+            <article class="producto">
+                <img src="img/producto_1.png" alt="">
+                <span class="prod-titulo">Máquina para hacer mujeres</span>
+                <span class="prod-precio">$3250,00</span>
+                <span>CONTADO ONLINE</span>
+                <span class="prod-precio-oferta">$2890,00</span>
+                <img src="img/comprar.png" alt="">
+            </article>
 
         </div>
 
-      </div>
-
-
-<!-- ************************************FOOTER**************************** -->
+      <!-- //*********************FOOTER***************************** -->
 
       <?php include 'footer.php'; ?>
 
-      <!-- ************************fin footer******************** -->
-    </div>
+      <!-- //*******************FOOTER END************************** -->
 
-  </body>
+    </body>
 </html>

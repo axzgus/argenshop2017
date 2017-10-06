@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <title>Login</title>
     <link href="reset.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="estilo_reg.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
   </head>
   <body>
     <div class="cuerpo">
